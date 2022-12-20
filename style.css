@@ -1,0 +1,890 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.outer{
+        width: 100%;
+        /* height: 2500px; */
+        float: left;
+         /*border:4px solid red;*/
+}
+
+.nav{
+width:100%;
+height: 70px;
+float: left;
+/*border:3px solid rgb(75, 128, 0);*/
+background-color: #f7f7f7!important;
+}
+
+.logo{
+width: 40%;
+height: 64px;
+float: left;
+text-align: center;
+/*border: 2px solid yellow;*/
+}
+
+.section{
+        width: 60%;
+        height: 64.8px;
+        float: left;
+        /*border: 2px solid blue;*/
+}
+
+/*.section ul {
+	float: right;
+}*/
+
+.menu{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 18px;
+margin-top: 7px;
+
+}
+ul {
+	list-style-type: none;
+}
+
+li {
+	float: left;
+	padding: 10px 30px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(133, 140, 133);
+}
+
+.background-img{
+              width: 100%;
+              height: 600px;
+              float: left;
+              /*border: 2px solid red;*/
+              background-image:linear-gradient(to right,rgb(108 77 86 / 70%), rgb(104 82 82 / 13%)),url(images/pick.jpg);
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: cover;
+              background-attachment: fixed;
+}
+
+h1{
+color: white;
+margin-top: 270px;
+font-size: 40px;
+margin-left: 80px;
+}
+
+.sub-heading{
+color:white;
+margin-top: 10px;
+font-size: 25px;
+margin-left: 12px;
+}
+
+.row-in-viedo{
+    width: 100%;
+    height: 400px;
+    float: left;
+    margin-top: 25px;
+   /* border: 4px solid green;*/
+}
+
+.first-box-viedo{
+width: 40%;
+height: 390px;
+float: left;
+/*border: 3px solid blue;*/
+margin: 0 auto;
+
+}
+
+.second-box-image{
+ width: 60%;
+height: 390px;
+float: left;
+/*border: 3px solid blueviolet;*/
+
+}
+
+.image-1{
+        width: 100%;
+        height: 390px;
+        float: left;
+        background-image: url(images/photo.jpg);    
+        background-position: center;
+        background-size: cover;
+         background-repeat: no-repeat;
+         padding-top: 85px;
+        padding-left: 35px;
+}
+
+h2{
+    font-size: 37px;
+    font-family: "work sans",helvetica, arial,,Lucida, sans-serif;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.text{
+ color: rgb(201 55 46);
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.row-2{
+    width: 100%;
+    height: 420px;
+    float: left;
+    /*border: 3px solid black;*/
+    background-color: rgba(7,0,10,0.04)!important;
+}
+
+.row-2-image{
+    width: 50%;
+    height: 390px;
+    float: left;
+    margin-top: 25px;
+    /*border: 2px solid olive;*/
+    padding-top: 6px;
+    background-image: url(images/o.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.mission-vesion-text{
+    width: 50%;
+    height: 390px;
+    float: left;
+    margin-top: 25px;
+    /*border: 2px solid rgb(128, 0, 94);*/
+}
+
+/*.mission{
+    width: 9%;
+    height: 70px;
+    float: left;
+    margin-left: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    background-image: url(images/1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h3{
+   margin-top: 70px;
+    margin-left: 130px;
+    font-size: 14px;
+}
+
+.vision{
+    width: 9%;
+    height: 70px;
+    float: left;
+    border: 2px solid red;
+}*/
+
+h3{
+    font-size: 17px;
+    padding-left: 50px;
+    outline: 0em;
+    color: #4c4cc6;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+    padding-left: 50px;
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+h4{
+    margin-top: 20px;
+    font-size: 17px;
+    padding-left: 50px;
+    outline: 0em;
+    color: #4c4cc6;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row-3{
+    width: 100%;
+    height: 440px;
+    float: left;
+    /*border: 3px solid orange;*/
+    background-color: #c9e5e996;
+}
+
+.colum-box{
+    width: 65%;
+    height: 355px;
+    margin: 0 auto;
+    margin-top: 80px;
+   /* border: 3px solid rgb(0, 255, 123);*/
+}
+
+.our-clients{
+        width: 30%;
+        height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 33px;
+   font-weight: 700;
+   color: #333;
+   font-family: 'EB Garamond',Georgia,"Times New Roman",serif;
+  /* border: 1px solid teal;*/
+
+}
+.row3-heading{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 32px!important;
+    color: #616ce1!important;
+    line-height: 1.6em;
+    text-shadow: 0em 0.1em 0.1em rgb(0 0 0 / 0%);
+}
+
+.footer{
+    width: 100%;
+    height: 450px;
+    float: left;
+    padding-top: 43px;
+     /*border: 3px solid indigo;*/
+     background-color: #10106b; 
+}
+
+.logo-border{
+    width: 80%;
+    height: 340px;
+    /* border: 2px solid white;*/
+    margin: 0 auto;
+}
+
+.canter-of-excellence{
+                    width: 24%;
+                    height: 270px;
+                    float: left;
+                    margin-top: 10px;
+                    /*border: 2px solid skyblue;*/
+}
+
+.services{
+    width: 23%;
+    height: 270px;
+    float: left;
+    margin-left: 27px;
+    margin-top: 10px;
+    /*border: 2px solid rgb(51, 241, 13);*/
+}
+
+h5{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    padding-left: 22px;
+    /*border-bottom: 1px solid #ffffff52;*/
+}
+
+h6{
+    color: #c6bfbf;
+    font-size: 16px;
+    padding-left: 22px;
+    padding-top: 10px;
+}
+
+.adress{
+    color: #e0d7d7;
+    padding-left: 22px;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+
+.social_icons1{
+	width: 100%;
+	height: 40px;
+    /*border: 1px solid blue;*/
+	word-spacing: 20px;
+	padding-top: 10px;          
+    padding-left: 22px;
+	color: white;
+}
+
+.about-img-border{
+    width: 100%;
+    height: 350px;
+    float: left;
+    /*border: 2px solid blue;*/
+    background-image:linear-gradient(to right,rgb(69 62 62 / 47%), rgb(20 16 16 / 10%)),url(https://www.healthcareradius.in/cloud/2021/11/15/Safdarjung-hospital.gif);
+    background-position: center;
+    background-size: cover;
+    background-attachment: initial;
+    background-repeat: no-repeat;
+}
+
+.about{
+   text-align: center;
+  color: white;
+  font-size: 38px;
+  padding-top: 70px;
+}
+
+.gandhi-hospital-about-row{
+                        width: 100%;
+                        height: 315px;
+                        float: left;
+                        /*border: 2px solid greenyellow;*/
+}
+
+.gandhi-hospital-col{
+            width: 80%;
+          height: 310px;
+        margin: 0 auto;
+        padding-top: 70px;
+       /* border: 2px solid rgba(233, 83, 13, 0.844);*/
+}
+
+p{
+    padding-left: 70px;
+    color: #211717e3;  
+}
+
+.color{
+    color: brown;
+}
+
+.facilities-available-row{
+    width: 100%;
+    height: 390px;
+    float: left;
+   /* border: 2px solid grey;*/
+  /* background-color: #ebd9e294;*/
+}
+
+.facilites-box{
+    width: 80%;
+    height: 325px;
+    margin: 0 auto;
+    margin-top: 57px;
+   /* border: 2px solid rgb(39, 22, 2);*/
+}
+
+.facilites-main-heading{
+    font-size: 30px;
+    padding-left: 30px;
+    color:  #e02b20;
+}
+
+.box{
+    width: 33.3%;
+    height: 280px;
+    float: left;
+    /*border: 2px solid blueviolet;*/
+}
+
+.emergancy-services{
+    width: 90%;
+    height: 60px;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 16px;
+    color: #3d3a3a;
+    border: 2px solid #c7c7c7;
+}
+
+.pharmacy{
+    width: 90%;
+    height: 60px;
+    padding-left: 30px;
+    padding-top: 18px;
+    font-size: 16px;
+    color: #3d3a3a;
+    margin-top: 10px;
+    border-radius: 4px;
+   border: 2px solid #c7c7c7;
+}
+
+.advanced-fality{
+    width: 90%;
+    height: 60px;
+    padding-left: 30px;
+    padding-top: 18px;
+    font-size: 16px;
+    color: #3d3a3a;
+    margin-top: 10px;
+   border: 2px solid #c7c7c7;
+}
+
+.dialyas-fality{
+    width: 90%;
+    height: 60px;
+    padding-left: 30px;
+    padding-top: 18px;
+    font-size: 16px;
+    color: #3d3a3a;
+    margin-top: 10px;
+    border: 2px solid #c7c7c7;
+}
+.diagnostic{
+    width: 100%;
+    height: 329px;
+    float: left;
+   /* border: 2px solid blue;*/
+}
+
+.diagnostic-image{
+    width: 100%;
+    height: 325px;
+    float: left;
+    /*border: 2px solid rgb(22, 22, 26);*/
+    background-image: url(images/d.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.diagnostic-text{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+    color: orangered;
+}
+
+.row1-diagnostic-heading{
+    width: 100%;
+    height: 370px;
+    float: left;
+    background-color: #eeeeee33;
+    margin-top: 2px;
+    /* border: 2px solid orangered; */
+}
+
+.col-sample{
+    width: 80%;
+    height: 305px;
+    margin: 0 auto;
+    margin-top: 60px;
+     /*border: 2px solid rebeccapurple; */
+}
+
+.sample-sub-heading{
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.sample-text{
+    font-size: 17px;
+    padding-left: 20px;
+    color: #0e00009e;
+    font-family: 'Work Sans',Helvetica,Arial,Lucida,sans-serif;
+    line-height: 1.6em;
+}
+
+.pharmacy-row2{
+    width: 100%;
+    height: 650px;
+    float: left;
+    /* border: 2px solid rgb(9, 236, 172); */
+}
+
+.lobry-pharmacy-image{
+    width: 75%;
+    height: 565px;
+    margin: 0 auto;
+    margin-top: 80px;
+     /*border: 2px solid rgb(16, 179, 238); */
+}
+
+.pharmacy-box1{
+    width: 32%;
+    height: 270px;
+    float: left;
+    /* border: 2px solid rgb(16, 179, 238); */
+    background-image: url(https://www.saprahospital.com/wp-content/uploads/2022/07/ICU-Sapra-Hospital.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.pharmacy-box2{
+    width: 32%;
+    height: 270px;
+    float: left;
+    margin-left: 21.8px;
+   /* border: 2px solid rgb(16, 179, 238);*/
+    background-image: url(https://www.saprahospital.com/wp-content/uploads/2022/07/SMS-Pharmacy-Sapra-Hospital-.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+
+.pharmacy-box3{
+    width: 32%;
+    height: 270px;
+    float: left;
+    margin-left: 21.8px;
+    /* border: 2px solid rgb(16, 179, 238); */
+    background-image: url(https://www.saprahospital.com/wp-content/uploads/2022/07/CT-Scan-Machine-Hisar-Sapra-Hospital.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+} 
+
+.pharmacy-box4{
+    width: 32%;
+    height: 270px;
+    float: left;
+    margin-top: 20px;
+    /* border: 2px solid rgb(16, 179, 238); */
+    background-image: url(https://gandhihospital.info/wp-content/uploads/2021/12/opd-1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.pharmacy-box5{
+    width: 32%;
+    height: 270px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 21.8px;
+    /* border: 2px solid rgb(16, 179, 238); */
+    background-image: url(https://www.saprahospital.com/wp-content/uploads/2022/07/Nurse-Sapra-Hospital.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.pharmacy-box6{
+    width: 32%;
+    height: 270px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 21.8px;
+    /* border: 2px solid rgb(16, 179, 238); */
+    background-image: url(https://gandhihospital.info/wp-content/uploads/2021/12/cathlab.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.services-row{
+    width: 100%;
+    height: 500px;
+    float: left;
+     background-color:  #55E9D7; 
+     /*border: 3px solid navy; */
+}
+
+.services-col{
+    width: 50%;
+    height: 495px;
+    float: left;
+     /*border: 2px solid red; */
+}
+
+.services-col-text{
+    color: white;
+    padding-left: 60px;
+    padding-top: 70px;
+    font-size: 42px;
+}
+
+.services-col-sub-heading{
+    color: white;
+    padding-left: 60px;
+    padding-top: 10px;
+    line-height: 1.6;
+    font-size: 19px;
+}
+
+.services-col2{
+    width: 50%;
+    height: 495px;
+    float: left;
+    /* border: 2px solid red; */
+    background-image: url(https://www.saprahospital.com/wp-content/uploads/2022/07/Sapra-Hospital-outside-view.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.row3-services{
+    width: 100%;
+    height: 455px;
+    float: left;
+     background-color: #c7c7c733;
+    /* border: 2px solid green; */
+}
+
+.logo-contanier{
+    width: 80%;
+    height: 390px;
+    margin: 0 auto;
+    margin-top: 60px;
+     /*border: 2px solid rgba(247, 8, 143, 0.914); */
+}
+.expanenment-text{
+    text-align: center;
+    font-size: 30px;
+}
+
+.container1{
+    width: 22.3%;
+    height: 160px;
+    float: left;
+    background-image: url(https://www.saprahospital.com/wp-content/uploads/2022/07/Reliance-TPA-sapra-hospital-hisar.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+}
+
+.container2{
+    width: 22.3%;
+    height: 160px;
+    float: left;
+    margin-left: 41.5px;
+    /* border: 2px solid black; */
+    background-image: url(https://www.saprahospital.com/wp-content/uploads/2022/07/ICICI-Health-Panel-sapra-hospital-hisar-300x169.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.container3{
+    width: 22.3%;
+    height: 160px;
+    float: left;
+    margin-left: 41.5px;
+    /* border: 2px solid black; */
+    background-image: url(https://www.saprahospital.com/wp-content/uploads/2022/07/ECHS-Sapra-hospital-hisar.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.container4{
+    width: 22.3%;
+    height: 160px;
+    float: left;
+    margin-left: 41.5px;
+    /* border: 2px solid black; */
+    background-image: url(https://www.saprahospital.com/wp-content/uploads/2022/07/HUDA-Health-Panel-sapra-hospital-hisar.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.container5{
+    width: 22.3%;
+    height: 160px;
+    float: left;
+    margin-top: 25px;
+     /*border: 2px solid black; */
+    background-image: url(images/i.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+}
+
+.container6{
+    width: 22.3%;
+    height: 160px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 41.5px;
+     /*border: 2px solid black; */
+    background-image: url(https://www.saprahospital.com/wp-content/uploads/2022/07/emp-2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.container7{
+    width: 22.3%;
+    height: 160px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 41.5px;
+     /*border: 2px solid black; */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcS6miJ62hRJfiETTehvv-8g3_WjxTdzJ2Ew&usqp=CAU);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.container8{
+    width: 22.3%;
+    height: 160px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 41.5px;
+    /* border: 2px solid black; */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhQ-yW_TJ7H3f_3B0W5aYfEcVagMmws0_g9A&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+
+.background{
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 35px;
+}
+.contact-blue{
+    width: 75%;
+    height: 560px;
+     background-color: #1876c1; 
+    margin-top: -602px;
+    margin-left: 65px;
+    margin: 0 auto;
+    border-radius: 13px;
+    }
+    
+    .login{
+    width: 33%;
+    height: 320px;
+    float: left;
+    margin-left: 161px;
+    margin-top: 90px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+     background-color: white; 
+    }
+    
+    .from-img{
+    width: 33%;
+    height: 320px;
+    float: left;
+    margin-top: 90px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: #f3fafb;
+    }
+    
+    .from-img img{
+    width: 100%;
+    height: 300px;
+    }
+    .log-text{
+    text-align: center;
+    font-size: 17px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 28px;
+    }
+    
+    .form {
+        display: grid;
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    .form_update{
+        width: 100%;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .form_input {
+        position: absolute;
+        display: block;
+        font-size: 12px;
+        font-weight: 400;
+        width: 17%;
+        height: auto;
+        padding: 0.75rem 1rem;
+        border-style: solid;
+        z-index: 1;
+        border-color: hsl(110, 3%, 90%);
+        color :dde8e9;
+       border-radius: 25px;
+       margin-top: 18px;
+      float: left;
+        background-color: #f3fafb;
+    }
+    
+    .button_submit {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: center;
+        width: 80%;
+        height: auto;
+        padding: 0.40rem 1rem;
+        border-color: hsl(110, 3%, 90%);
+        border-style: solid;
+        color: white;
+        border-radius: 25px;
+        margin-top: 18px;
+    background-color: #1876c1;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;  
+    }
+    
+    .form_alert {
+        position: absolute;
+        display: block;
+        font-size: 0.875rem;
+        line-height: 1.5;
+        bottom: -1.5rem;
+        visibility: hidden;
+        color: hsl(0, 0%, 10%);
+    }
+    
+    .error{
+        color: red;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 9px;
+    }
+    
+    .bottom-text{
+    text-align: center;
+    color: #d1e4e6;
+    margin-top: 405px; 
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    }
+    
+    .map{
+        width: 100%;
+        height: 460px;
+        float: left;
+        /* border: 2px solid blue; */
+    }
+
+    .map-contanier{
+        width: 100%;
+        height: 455px;
+        margin: 0 auto;
+        /* border: 2px solid black; */
+    }

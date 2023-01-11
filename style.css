@@ -1015,31 +1015,27 @@ p{
                 font-size: 14px;
                 padding-left: 15px;
             }
-
-            
-            
-                .footer{
+         .footer{
                 height: auto;  
                  padding-top: 5px;
              }   
                 
-          
-
             .canter-of-excellence{
                 width: 100%;
-                margin-bottom: -50px;
+                height: auto;
             }
 
             .logo-border{
                 width: 100%;
-                margin-bottom: -50px;
+                height: auto;
 
             }
             
             .services{
                 width: 100%;
+                height: auto;
+                padding-top: 40px;
                 margin-left: 0px;
-                margin-bottom: -50px;
             }
  
 
@@ -1089,6 +1085,7 @@ p{
     
 .box{
     width: 100%;
+    height: auto;
 }
 
 .emergancy-services{
